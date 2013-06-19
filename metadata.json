@@ -1,0 +1,20 @@
+{
+  "name": "kreczko-yumhelper",
+  "author": "kreczko",
+  "description": "",
+  "license": "",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "c7dfa2cc7a51e53615361c62a5811506",
+    "README.md": "d7965a14700cd064871337f6c9649588",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "manifests/init.pp": "6b9940976b22b22203c0632e091061a3",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "tests/init.pp": "0bc02842e3cdd23b4ecf0b1d0736223e"
+  },
+  "dependencies": []
+}
