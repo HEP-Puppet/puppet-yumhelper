@@ -1,11 +1,9 @@
-name    'kreczko-yumhelper'
-version ''
-source ''
+name 'kreczko-yumhelper'
+version '0.0.1'
+
 author 'kreczko'
 license ''
+project_page 'https://github.com/HEP-Puppet'
+source 'https://github.com/HEP-Puppet/puppet-yumhelper'
 summary ''
 description ''
-project_page ''
-
-## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
