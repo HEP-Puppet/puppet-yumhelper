@@ -14,7 +14,8 @@ define yumhelper::modify (
       onlyif => "test `yum repolist all | grep $repository | wc -l` -gt 0",
       path   => [
         '/sbin',
-        '/usr/bin'],
+        '/usr/bin',
+        '/bin'],
       user   => 'root',
     }
   } else {
