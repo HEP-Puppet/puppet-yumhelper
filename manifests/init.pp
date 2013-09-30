@@ -11,5 +11,5 @@
 # Sample Usage:
 #
 class yumhelper {
-
+  class { 'yumhelper::install': }
 }
