@@ -11,12 +11,13 @@ define yumhelper::modify (
     }
 
     exec { "yum-config-manager $change $repository":
-      onlyif => "test `yum repolist all | grep $repository | wc -l` -gt 0",
-      path   => [
+      onlyif  => "test `yum repolist all | grep $repository | wc -l` -gt 0",
+      path    => [
         '/sbin',
         '/usr/bin',
         '/bin'],
-      user   => 'root',
+      user    => 'root',
+      require => Package['yum-utils'],
     }
   } else {
     if enable == true {
